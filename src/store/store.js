@@ -8,4 +8,3 @@ const store = createStore(reducers, compose(
 ));
 
 export default store;
-
