@@ -1,4 +1,4 @@
-function update(store, value = {}) {
+export default function update(store, value = {}) {
   return {
     type: `${store}UPDATE`,
     value,
@@ -13,5 +13,3 @@ export function updateMapToProps(store, value = {}) {
     });
   };
 }
-
-export default update;
