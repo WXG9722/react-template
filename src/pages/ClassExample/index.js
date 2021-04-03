@@ -11,6 +11,7 @@ class ClassExample extends React.Component {
     updateMapToProps: PropTypes.func,
     classExample: PropTypes.objectOf(PropTypes.any),
   }
+
   constructor(props) {
     super(props);
     this.state = {};
